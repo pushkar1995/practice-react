@@ -1,10 +1,11 @@
 // import HookCounter from "./components/HookCounter"
-import HookCounterTwo from "./components/HookCounterTwo"
+import HookCounterThree from "./components/HookCounterThree"
+// import HookCounterTwo from "./components/HookCounterTwo"
 
 const App = () => {
   return (
     <div>
-        <HookCounterTwo />
+        <HookCounterThree />
     </div>
   )
 }
