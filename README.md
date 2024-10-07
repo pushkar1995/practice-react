@@ -6,3 +6,11 @@ References for Branch using-contextapi1.0
 
 - Video 64: Context API & useContext Hook in React v19 in Hindi (Thapa Technical
  Youtube Channel)
+
+References for Branch using-contextapi1.1
+
+- Reference Link:
+
+- https://www.youtube.com/watch?v=jIbXtgL0qrg
+
+- The useContext hook in React | Sigma Web Development Course - Tutorial #116 (CodeWithHarry Youtube Channel)

@@ -1,8 +1,12 @@
-
+import { useContext } from 'react'
+import { counterContext } from '../ContextAPI/context'
 
 const Component1 = () => {
+    const value = useContext(counterContext)
   return (
-    <div>Component1</div>
+    <div>
+        {value.count}
+    </div>
   )
 }
 
