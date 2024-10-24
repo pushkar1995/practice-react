@@ -6,3 +6,15 @@ Codevolution React Table Tutorial Practice
 For Dummy Data:
 
 Reference Link: https://www.mockaroo.com/
+
+For Server setup:
+To run json server for the project:
+npm i json-server
+
+To Start Server : 
+- json-server --watch MOCK_DATA.json
+- This will run on "https://localhost:3000" by default. 
+
+- json-server --watch MOCK_DATA.json --port 8000
+- his will run on "https://localhost:8000" 
+
