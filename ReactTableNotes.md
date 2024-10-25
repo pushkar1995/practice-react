@@ -10,3 +10,10 @@ Basic Table
 
 - useTable from react-table hook recommends to memorize the rows using useMemo hook
 -  useMemo hook ensure that the data isn't recreated on every render, if not memorize columns and data , react table would think it is receiving new data on every render and attempt to recalculate alot of logic every single time.
+
+
+Pagination
+
+- Page data and implement next/previous
+- Jump to a page
+- Configure page size

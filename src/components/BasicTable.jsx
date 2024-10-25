@@ -27,7 +27,7 @@ const BasicTable = () => {
             </thead>
             <tbody {...getTableBodyProps()}>
                 {rows.map((row) => { 
-                        prepareRow(row)
+                    prepareRow(row)
                         return (
                             <tr {...row.getRowProps()}>
                                 {row.cells.map((cell) => {
