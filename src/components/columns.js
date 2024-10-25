@@ -5,23 +5,28 @@ export const COLUMNS = [
     },
     { 
         Header: 'First Name',
-        accessor: 'first_name'
+        accessor: 'first_name',
+        Footer: 'First Name'
     },
     { 
         Header: 'Last Name',
-        accessor: 'last_name'
+        accessor: 'last_name',
+        Footer: 'Last Name'
     },
     { 
         Header: 'Date of Birth',
-        accessor: 'date_of_birth'
+        accessor: 'date_of_birth',
+        Footer: 'Date of Birth'
     },
     { 
         Header: 'Country',
-        accessor: 'country'
+        accessor: 'country',
+        Footer: 'Country'
     },
     { 
         Header: 'Phone',
-        accessor: 'phone'
+        accessor: 'phone',
+        Footer: 'Phone'
     },
    
 ]

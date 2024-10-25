@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { useMemo } from 'react'
 import { useTable } from 'react-table'
 import MOCK_DATA from '../../MOCK_DATA.json'
@@ -9,7 +10,7 @@ const BasicTable = () => {
     const columns = useMemo(() => COLUMNS, [])
     const data = useMemo(() => MOCK_DATA, [])
 
-    const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({ 
+    const { getTableProps, getTableBodyProps, headerGroups, footerGroups, rows, prepareRow } = useTable({ 
         columns,
         data,
     })
@@ -38,6 +39,17 @@ const BasicTable = () => {
                     })
                 }
             </tbody>
+            <tfoot className='tfoot'>
+                {footerGroups.map((footerGroup) => (
+                    <tr {...footerGroup.getFooterGroupProps()}>
+                        {footerGroup.headers.map((column) => (
+                            <td>{column.render('Footer')}</td>
+                        ))
+                        }
+                    </tr>
+                ))
+                }
+            </tfoot>
         </table>
     )
 }
