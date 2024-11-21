@@ -2,12 +2,16 @@ import React from 'react'
 
 type GreetProps = {
     name: string
+    messageCount: number
+    isLoggedIn: boolean
 }
 
 const Greet = (props: GreetProps) => {
   return (
     <div>
-       <h2>Welcome {props.name}! You have 10 unread messages</h2>
+        {
+            props.isLoggedIn ? `Welcome {props.name}! You have {props.messageCount} unread messages` : 'Welcome Guest'
+        }
     </div>
   )
 }
