@@ -1,3 +1,5 @@
+// Example of useState with previous value
+
 import { useState }  from 'react'
 
 const HookCounterTwo = () => {

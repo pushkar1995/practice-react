@@ -1,3 +1,5 @@
+// Example of useState with object
+
 import { useState }  from 'react'
 
 const HookCounterThree = () => {

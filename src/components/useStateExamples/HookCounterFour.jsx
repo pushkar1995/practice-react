@@ -1,5 +1,6 @@
-import { useState }  from 'react'
+// Example of useState with array
 
+import { useState }  from 'react'
 
 const HookCounterFour = () => {
     const [items, setItems] = useState([])
