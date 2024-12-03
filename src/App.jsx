@@ -10,7 +10,7 @@ import HookCounterFour from "./components/useStateExamples/HookCounterFour"
 const App = () => {
   return (
     <div>
-       <EffectDataFetching3 />
+       <EffectDataFetching />
     </div>
   )
 }
