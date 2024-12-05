@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import ComponentF from './ComponentF'
-import { UserContext, ChannelContext } from '../../App'
+import { UserContext, ChannelContext } from '../../App2'
 
 const ComponentE = () => {
 
