@@ -1,10 +1,11 @@
 import React from 'react'
-import Counter from './components/useMemoExamples/Counter'
+import FocusInput from './components/useRefExamples/FocusInput'
+
 
 const App = () => {
   return (
     <div>
-        <Counter />
+      <FocusInput />
     </div>
   )
 }
