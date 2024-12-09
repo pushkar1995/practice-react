@@ -1,12 +1,10 @@
 import React from 'react'
-import DataFetchingOne from './components/useReducerExamples/DataFetchingOne'
-import DataFetchingTwo from './components/useReducerExamples/DataFetchingTwo'
-import ParentComponent from './components/useCallbackExamples/ParentComponent'
+import Counter from './components/useMemoExamples/Counter'
 
 const App = () => {
   return (
     <div>
-        <ParentComponent />
+        <Counter />
     </div>
   )
 }
