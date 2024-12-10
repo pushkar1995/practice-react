@@ -1,12 +1,12 @@
 import React from 'react'
-import DocTitleOne from './components/customHookExamples/DocTitleOne'
-import DocTitleTwo from './components/customHookExamples/DocTitleTwo'
+import CounterOne from './components/customHookExamples/CounterOne'
+
 
 const App = () => {
   return (
     <div>
-      <DocTitleOne />
-      <DocTitleTwo />
+      <CounterOne />
+    
     </div>
   )
 }
