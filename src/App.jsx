@@ -1,14 +1,11 @@
 import React from 'react'
-import CounterOne from './components/customHookExamples/CounterOne'
-import CounterTwo1 from './components/customHookExamples/CounterTwo1'
+import UserForm from './components/customHookExamples/UserForm'
 
 
 const App = () => {
   return (
     <div>
-      <CounterOne />
-      <CounterTwo1 />
-    
+      <UserForm />  
     </div>
   )
 }
